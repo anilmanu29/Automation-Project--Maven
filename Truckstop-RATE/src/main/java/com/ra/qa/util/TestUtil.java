@@ -21,8 +21,7 @@ public class TestUtil extends TestBase{
 	public static long IMPLICIT_WAIT = 20;
 	
 	public static String TESTDATA_SHEET_PATH = 
-			System.getProperty("user.dir")+ "/src/main/java/com/ra"
-					+ "/qa/testdata/RateAnalyisTestData.xlsx";
+			System.getProperty("user.dir")+ "\\src\\main\\resources\\com\\ra\\qa\\testdata\\RateAnalysisTestData.xlsx";
 	
 	static Workbook book;
 	static Sheet sheet;
