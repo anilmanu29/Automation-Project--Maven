@@ -1,4 +1,4 @@
-package com.lp.qa.util;
+package TS.LP.QA.UTILITY;
 /*************************************** PURPOSE **********************************
 
  - This class implements the WebDriverEventListener, which is included under events.
@@ -17,7 +17,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import com.lp.qa.base.TestBase;
+import TS.LP.QA.BASE.TestBase;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 

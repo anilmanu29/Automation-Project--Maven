@@ -1,4 +1,4 @@
-package com.lp.qa.base;
+package TS.LP.QA.BASE;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,10 +16,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 
-import com.lp.qa.util.ReadExcel;
-import com.lp.qa.util.TestUtil;
-import com.lp.qa.util.WebEventListener;
-import com.lp.qa.util.Xls_Reader;
+import TS.LP.QA.UTILITY.ReadExcel;
+import TS.LP.QA.UTILITY.TestUtil;
+import TS.LP.QA.UTILITY.WebEventListener;
+import TS.LP.QA.UTILITY.Xls_Reader;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
@@ -76,7 +76,7 @@ public class TestBase {
 			
 		e_driver = new EventFiringWebDriver(driver);
 		// Now create object of EventListerHandler to register it with EventFiringWebDriver
-		eventListener = new com.lp.qa.util.WebEventListener();
+		eventListener = new TS.LP.QA.UTILITY.WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
 		

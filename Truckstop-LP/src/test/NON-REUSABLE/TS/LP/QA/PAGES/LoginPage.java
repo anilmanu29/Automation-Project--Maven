@@ -1,4 +1,4 @@
-package com.lp.qa.pages;
+package TS.LP.QA.PAGES;
 
 import org.eclipse.jetty.util.annotation.Name;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.lp.qa.base.TestBase;
+import TS.LP.QA.BASE.TestBase;
 
 public class LoginPage extends TestBase{
 	

@@ -1,4 +1,4 @@
-package com.lp.qa.util;
+package TS.LP.QA.UTILITY;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.math.BigDecimal;

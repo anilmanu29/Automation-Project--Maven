@@ -1,4 +1,4 @@
-package com.lp.qa.testcases;
+package TS.LP.QA.TESTCASES;
 
 import java.io.IOException;
 
@@ -6,10 +6,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.lp.qa.base.TestBase;
-import com.lp.qa.pages.LoginPage;
-import com.lp.qa.pages.PayMeNow;
-import com.lp.qa.util.Xls_Reader;
+import TS.LP.QA.BASE.TestBase;
+import TS.LP.QA.PAGES.LoginPage;
+import TS.LP.QA.PAGES.PayMeNow;
+import TS.LP.QA.UTILITY.Xls_Reader;
 
 public class CarrierLoginTest extends TestBase{
 	LoginPage loginPage;

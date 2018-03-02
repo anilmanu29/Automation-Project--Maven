@@ -1,4 +1,4 @@
-package com.lp.qa.util;
+package TS.LP.QA.UTILITY;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,7 +13,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.lp.qa.base.TestBase;
+import TS.LP.QA.BASE.TestBase;
 
 public class TestUtil extends TestBase{
 	
