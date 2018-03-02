@@ -42,7 +42,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/lp"
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/REUSABLE/com/lp"
 					+ "/qa/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
@@ -58,15 +58,15 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", 
-					System.getProperty("user.dir")+ "/src/main/resources/Drivers/chromedriver.exe");	
+					System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "/src/main/resources/Drivers/geckodriver.exe");	
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		else if(browserName.equals("IE")){
-			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+ "/src/main/resources/Drivers/IEDriverServer.exe");	
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/IEDriverServer.exe");	
 			driver = new InternetExplorerDriver(); 
 		}
 		
