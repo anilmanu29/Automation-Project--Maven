@@ -15,7 +15,8 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import com.excel.utility.ReadExcel;
+
+import com.lp.qa.util.ReadExcel;
 import com.lp.qa.util.TestUtil;
 import com.lp.qa.util.WebEventListener;
 import com.lp.qa.util.Xls_Reader;
