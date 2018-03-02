@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Load Pay Application Test Automation Test Suite" duration-ms="13099" started-at="2018-03-01T13:01:54Z" finished-at="2018-03-01T13:02:07Z">
+  <suite name="Load Pay Application Test Automation Test Suite" duration-ms="13945" started-at="2018-03-02T03:22:43Z" finished-at="2018-03-02T03:22:57Z">
     <groups>
     </groups>
-    <test name="Load Pay Test Cases" duration-ms="13099" started-at="2018-03-01T13:01:54Z" finished-at="2018-03-01T13:02:07Z">
+    <test name="Load Pay Test Cases" duration-ms="13945" started-at="2018-03-02T03:22:43Z" finished-at="2018-03-02T03:22:57Z">
       <class name="com.lp.qa.testcases.CarrierLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="setUp" is-config="true" duration-ms="7800" started-at="2018-03-01T18:31:54Z" finished-at="2018-03-01T18:32:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="setUp" is-config="true" duration-ms="8191" started-at="2018-03-02T08:52:43Z" finished-at="2018-03-02T08:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="loginTest" duration-ms="4604" started-at="2018-03-01T18:32:02Z" finished-at="2018-03-01T18:32:06Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="loginTest" duration-ms="5028" started-at="2018-03-02T08:52:51Z" finished-at="2018-03-02T08:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="tearDown" is-config="true" duration-ms="672" started-at="2018-03-01T18:32:06Z" finished-at="2018-03-01T18:32:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lp.qa.testcases.CarrierLoginTest@553f17c]" name="tearDown" is-config="true" duration-ms="704" started-at="2018-03-02T08:52:56Z" finished-at="2018-03-02T08:52:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
