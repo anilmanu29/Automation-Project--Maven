@@ -3,13 +3,13 @@
 <suite name="Load Pay Application Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="com.lp.qa.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="TS.LP.QA.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 
 	<test name="Load Pay Test Cases">
 		<classes>
-			<class name="com.lp.qa.testcases.CarrierLoginTest"></class>
+			<class name="TS.LP.QA.TESTCASES.CarrierLoginTest"></class>
 			
 
 		</classes>
