@@ -3,13 +3,13 @@
 <suite name="Rate Analysis Application Test Automation Test Suite">
 
 	<listeners>
-		<listener class-name="TS.RA.QA.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="ExtentReportListener.ExtentReporterNG" />
 	</listeners>
 
 
 	<test name="Rate Analysis Test Cases">
 		<classes>
-			<class name="TS.RA.QA.TESTCASES.LoginTest"></class>
+			<class name="TESTCASES.LoginTest"></class>
 			
 
 		</classes>

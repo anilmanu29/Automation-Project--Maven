@@ -25,6 +25,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
+	public String filepath=System.getProperty("user.dir")+ "/src/test/NON-REUSABLE/DataFolder/RateAnalysisTestData.xlsx";
 	public static WebEventListener eventListener;
 	static Xls_Reader reader;
 	
@@ -33,7 +34,7 @@ public class TestBase {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/REUSABLE/TS/RA/QA/CONFIG/config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/REUSABLE/CONFIG/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -48,15 +49,15 @@ public class TestBase {
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", 
-					System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/chromedriver.exe");	
+					System.getProperty("user.dir")+ "/src/main/REUSABLE/Drivers/chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
 		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/geckodriver.exe");	
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+ "/src/main/REUSABLE/Drivers/geckodriver.exe");	
 			driver = new FirefoxDriver(); 
 		}
 		else if(browserName.equals("IE")){
-			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+ "/src/main/NON-REUSABLE/Drivers/IEDriverServer.exe");	
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+ "/src/main/REUSABLE/Drivers/IEDriverServer.exe");	
 			driver = new InternetExplorerDriver(); 
 		}
 		
