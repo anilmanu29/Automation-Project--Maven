@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Rate Analysis Application Test Automation Test Suite" duration-ms="19945" started-at="2018-03-02T03:26:58Z" finished-at="2018-03-02T03:27:18Z">
+  <suite name="Rate Analysis Application Test Automation Test Suite" duration-ms="21613" started-at="2018-03-05T05:27:18Z" finished-at="2018-03-05T05:27:40Z">
     <groups>
     </groups>
-    <test name="Rate Analysis Test Cases" duration-ms="19945" started-at="2018-03-02T03:26:58Z" finished-at="2018-03-02T03:27:18Z">
-      <class name="com.ra.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ra.qa.testcases.LoginTest@553f17c]" name="setUp" is-config="true" duration-ms="8306" started-at="2018-03-02T08:56:58Z" finished-at="2018-03-02T08:57:07Z">
+    <test name="Rate Analysis Test Cases" duration-ms="21613" started-at="2018-03-05T05:27:18Z" finished-at="2018-03-05T05:27:40Z">
+      <class name="TS.RA.QA.TESTCASES.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TS.RA.QA.TESTCASES.LoginTest@553f17c]" name="setUp" is-config="true" duration-ms="9916" started-at="2018-03-05T10:57:18Z" finished-at="2018-03-05T10:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.ra.qa.testcases.LoginTest@553f17c]" name="loginTest" duration-ms="10893" started-at="2018-03-02T08:57:07Z" finished-at="2018-03-02T08:57:18Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:TS.RA.QA.TESTCASES.LoginTest@553f17c]" name="loginTest" duration-ms="10975" started-at="2018-03-05T10:57:28Z" finished-at="2018-03-05T10:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ra.qa.testcases.LoginTest@553f17c]" name="tearDown" is-config="true" duration-ms="722" started-at="2018-03-02T08:57:18Z" finished-at="2018-03-02T08:57:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TS.RA.QA.TESTCASES.LoginTest@553f17c]" name="tearDown" is-config="true" duration-ms="698" started-at="2018-03-05T10:57:39Z" finished-at="2018-03-05T10:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ra.qa.testcases.LoginTest -->
+      </class> <!-- TS.RA.QA.TESTCASES.LoginTest -->
     </test> <!-- Rate Analysis Test Cases -->
   </suite> <!-- Rate Analysis Application Test Automation Test Suite -->
 </testng-results>
