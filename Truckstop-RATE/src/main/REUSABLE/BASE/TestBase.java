@@ -25,7 +25,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	public  static EventFiringWebDriver e_driver;
-	public String filepath=System.getProperty("user.dir")+ "/src/test/NON-REUSABLE/DataFolder/RateAnalysisTestData.xlsx";
+	//public String filepath=System.getProperty("user.dir")+ "/src/test/NON-REUSABLE/DataFolder/RateAnalysisTestData.xlsx";
 	public static WebEventListener eventListener;
 	static Xls_Reader reader;
 	

@@ -2,17 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Rate Analysis Application Test Automation Test Suite]">
   <listeners>
-    <listener class-name="com.ra.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
   </listeners>
   <test name="Rate Analysis Test Cases(failed)">
     <classes>
-      <class name="com.ra.qa.testcases.LoginTest">
+      <class name="TESTCASES.LoginTest">
         <methods>
-          <include name="setUp"/>
           <include name="loginTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.ra.qa.testcases.LoginTest -->
+      </class> <!-- TESTCASES.LoginTest -->
     </classes>
   </test> <!-- Rate Analysis Test Cases(failed) -->
 </suite> <!-- Failed suite [Rate Analysis Application Test Automation Test Suite] -->

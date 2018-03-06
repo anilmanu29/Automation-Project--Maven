@@ -5,6 +5,13 @@
 	<listeners>
 		<listener class-name="ExtentReportListener.ExtentReporterNG" />
 	</listeners>
+	
+	<parameters>
+	QA
+	BROSWER
+	</parameters>>
+	
+	
 
 
 	<test name="Rate Analysis Test Cases">
